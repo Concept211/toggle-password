@@ -22,7 +22,6 @@
 
 ```html
 <input type="password" class="toggle-password" id="password" placeholder="Password">
-<span class="fa fa-fw fa-eye toggle-password-button" toggle="#password"></span>
 ```
 
 2. Call the plugin on the password input fields:
