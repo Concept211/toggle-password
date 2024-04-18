@@ -8,36 +8,32 @@
 - Customizable icons for show/hide states.
 - Simple integration into existing web forms.
 
-## Installation
-
-You can install the **jQuery Toggle Password Plugin** via npm or include it directly in your HTML file.
-
-### Install via npm
-
-npm install jquery-toggle-password
-
 ### Include directly in HTML
 
+```html
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="toggle-password.js"></script>
 <link rel="stylesheet" href="toggle-password.css">
+```
 
 ## Usage
 
 1. Add the necessary HTML for your password input fields and include Font Awesome for icons (if not already included):
 
-<!-- HTML -->
+```html
 <input type="password" class="toggle-password" id="password" placeholder="Password">
 <span class="fa fa-fw fa-eye toggle-password-button" toggle="#password"></span>
+```
 
 2. Call the plugin on the password input fields:
 
-// JavaScript
+```JavaScript
 $('.toggle-password').togglePassword({
     show: 'fa-eye',
     hide: 'fa-eye-slash',
     base: 'fa fa-fw toggle-password-button'
 });
+```
 
 ## Options
 
