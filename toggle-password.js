@@ -3,7 +3,7 @@
         var settings = $.extend({
             show: 'fa-eye',
             hide: 'fa-eye-slash',
-			base: 'fa fa-fw toggle-password-button'
+            base: 'fa fa-fw toggle-password-button'
         }, options);
 
         return this.each(function() {
@@ -17,7 +17,7 @@
                     if ($input.attr('type') === 'password') {
                         $input.attr('type', 'text');
                     }
-					else {
+                    else {
                         $input.attr('type', 'password');
                     }
                 });
